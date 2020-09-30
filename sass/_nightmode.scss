@@ -1,0 +1,166 @@
+// @import 'color-config';
+
+// DARK MODE
+.dark-body {
+    transition: all linear 0.2s;
+    background-color: $light-black;
+
+    & header {
+        background-color: $light-black;
+        color: $white;
+
+        nav {
+            background-color: $light-black;
+
+            a {
+                color: $white;
+            }
+        }
+
+        #toggle-mobile {
+            .toggle-modes {
+                .label{
+                    background-color: hsl(210, 55%, 39%);
+                }
+            }
+        }
+
+        #desktop-toggle {
+            .toggle-modes {
+                .label{
+                    background-color: hsl(210, 55%, 39%);
+                }
+            }
+        }
+
+        & #mobile,
+        #desktop {
+            background-color: $black;
+        }
+
+        #mobile {
+            & .mobile-nav__links {
+                & a {
+                    color: $accent-blue;
+                    & i {
+                        color: $accent-blue;
+                    }
+                }
+
+                &.active {
+                    a {
+                        color: $white;
+                    }
+
+                    i {
+                        color: $white;
+                    }
+                    
+                }
+            }
+        }
+
+        & #toggle-mobile img {
+            filter: invert(100%);
+        }
+
+        & #desktop {
+
+            & img {
+                filter: invert(100%);
+            }
+
+            & ul {
+                & li {
+                    &:hover {
+                        cursor: pointer;
+                        border-bottom: 4px solid $accent-blue;
+                        & a {
+                            color: $accent-blue;
+                        }
+                    }
+                    //for desktop nav
+                       &.active {
+                        border-bottom: 4px solid $accent-blue;
+                        & a {
+                            color: $accent-blue;
+                        }
+                    }
+ 
+                }
+            }
+        }
+
+        & .header-section {
+
+            .girl,
+            .arrow {
+                filter: invert(80%);
+            }
+        }
+    }
+
+    & .portfolio {
+        background-color: $black;
+
+        .portfolio-title {
+            color: $white;
+
+            &:after {
+                content: "";
+                display: block;
+                border-bottom: 5px solid $accent-blue;
+            }
+        }
+    }
+
+    & .about {
+        background-color: $light-black;
+        color: $white;
+
+        & .about-title {
+            color: $white;
+
+            &:after {
+                content: "";
+                display: block;
+                border-bottom: 5px solid $accent-blue;
+            }
+        }
+
+        & .socials {
+            & .icons li a {
+                color: $white;
+
+                &:hover {
+                    color:$accent-purple;
+                }
+            }
+        }
+
+    }
+
+    & .contact {
+        background-color: $black;
+        color: $white;
+        & .contact-title {
+
+            &:after {
+                content: "";
+                display: block;
+                border-bottom: 5px solid $accent-blue;
+            }
+        }
+        & span a {
+            color: $accent-blue;
+        }
+        
+    }
+
+    & footer {
+        background-color: $black;
+        color: $white;
+    }
+
+
+}

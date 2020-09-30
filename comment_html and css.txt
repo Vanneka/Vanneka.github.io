@@ -1,0 +1,15 @@
+HTML
+<!--STANDARD COMMENT FORMAT DOWN HERE-->
+<!--    HEADER BEGINS HERE    -->
+<!--    HEADER ENDS HERE    -->
+
+<!--    nav section    -->
+<!--    nav section    -->
+
+
+CSS
+/*STANDARD COMMENT FORMAT DOWN HERE*/
+/*HEADER STYLING STARTS HERE*/
+/*HEADER STYLING ENDS HERE*/
+/*nav section*/
+/*nav section*/
