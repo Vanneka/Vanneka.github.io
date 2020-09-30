@@ -1,6 +1,6 @@
 # My personal portfolio website
 
-![Design preview for my portfolio page](./assets/img/desktop-preview.jpg)
+![Design preview for my portfolio page](./assets/img/desktop-preview.png)
 
 ## Hi There! 👋
 This is my personal portfolio page. You can view it in LIGHT MODE or in DARK MODE, depending on which you prefer.
